@@ -1,0 +1,142 @@
+# 🏦 Banka Sırası Otomasyonu (Queue Data Structure)
+
+Bu proje, **C#** programlama dili kullanılarak geliştirilmiş bir konsol uygulamasıdır. Amaç, **Queue (Kuyruk)** veri yapısının çalışma mantığını gerçek hayattaki banka sırası sistemi üzerinden simüle etmektir. Sistem, müşterileri öncelik seviyelerine göre sıralayarak işlemleri **FIFO (First In First Out / İlk Giren İlk Çıkar)** mantığıyla yönetmektedir.
+
+---
+
+# 📝 Proje Hakkında
+
+Uygulama, müşterileri üç farklı öncelik grubuna ayırarak işlem sırasını yönetir:
+
+- **1. Öncelik:** VIP / Acil müşteriler
+- **2. Öncelik:** Standart müşteriler
+- **3. Öncelik:** Düşük öncelikli müşteriler
+
+Sistem, öncelik seviyelerine göre otomatik işlem akışı sağlar:
+
+1. Önce 1. öncelikli müşteriler işlenir.
+2. 1. kuyruk boşaldığında 2. öncelikli müşterilere geçilir.
+3. Tüm üst öncelikler tamamlandığında 3. öncelikli müşteriler işleme alınır.
+
+Bu yapı sayesinde Queue veri yapısının mantığı pratik bir senaryo üzerinden anlaşılır hale getirilmiştir.
+
+---
+
+# ⚙️ Teknik Detaylar
+
+| Özellik | Açıklama |
+|---|---|
+| Dil | C# |
+| Platform | .NET Framework 4.7.2 |
+| Veri Yapısı | `Queue<string>` |
+| Uygulama Türü | Console Application |
+| Programlama Yaklaşımı | Nesne Yönelimli Programlama (OOP) |
+
+---
+
+# 🎯 Temel Özellikler
+
+## ✅ Müşteri Kaydı
+- Sisteme yeni müşteri ekleme
+- İsim ve öncelik seviyesi belirleme
+- Dinamik kuyruk yönetimi
+
+## ✅ Akıllı İşlem Yönetimi
+- Öncelikli müşteri mantığı
+- FIFO tabanlı işlem sırası
+- Kuyruklar arası otomatik geçiş
+
+## ✅ Kuyruk Görüntüleme
+- Tüm müşterileri öncelik sırasına göre listeleme
+- Bekleyen müşteri kontrolü
+- Anlık kuyruk durumu görüntüleme
+
+---
+
+# 🚀 Kurulum ve Çalıştırma
+
+## 1️⃣ Projeyi İndirin
+
+```bash
+git clone <repo-link>
+```
+
+veya ZIP olarak indirip çıkarın.
+
+---
+
+## 2️⃣ Visual Studio ile Açın
+
+`7.Odev.sln` dosyasını Visual Studio üzerinden açın.
+
+---
+
+## 3️⃣ Projeyi Çalıştırın
+
+Visual Studio içerisinde:
+
+```bash
+F5
+```
+
+tuşuna basarak projeyi derleyip çalıştırabilirsiniz.
+
+---
+
+# 📂 Proje Yapısı
+
+```bash
+7.Odev/
+│
+├── Program.cs
+├── 7.Odev.csproj
+├── .gitignore
+└── README.md
+```
+
+| Dosya | Açıklama |
+|---|---|
+| `Program.cs` | Kuyruk algoritması ve menü sistemi |
+| `7.Odev.csproj` | Proje yapılandırma dosyası |
+| `.gitignore` | Gereksiz Visual Studio dosyalarını filtreler |
+| `README.md` | Proje tanıtım dosyası |
+
+---
+
+# 🧠 Kullanılan Veri Yapısı
+
+Bu projede temel olarak aşağıdaki veri yapısı kullanılmıştır:
+
+```csharp
+Queue<string>
+```
+
+Queue yapısı:
+- İlk eklenen veriyi ilk çıkarır.
+- FIFO mantığı ile çalışır.
+- Gerçek hayattaki banka sırası sistemlerine uygundur.
+
+---
+
+# 📌 Projenin Amacı
+
+Bu proje sayesinde:
+
+- Queue veri yapısının çalışma mantığı öğrenilir.
+- Öncelikli işlem sistemleri anlaşılır.
+- Gerçek hayat senaryoları yazılıma aktarılır.
+- C# konsol uygulaması geliştirme pratiği kazanılır.
+
+---
+
+# 📜 Lisans
+
+Bu proje **MIT License** ile lisanslanmıştır.
+
+Detaylı bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
+
+---
+
+# 👩‍💻 Geliştirici
+
+**Şilan Pehlivan**

@@ -2,17 +2,32 @@
 
 # Banka Sırası Otomasyonu
 
-**Öncelikli kuyruk simülasyonu**
+### Öncelikleri yönet, sırayı koru.
 
-![C#](https://img.shields.io/badge/C%23-2563eb?style=flat-square)
-![Queue](https://img.shields.io/badge/Queue-0891b2?style=flat-square)
-[![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)](LICENSE)
+![C#](https://img.shields.io/badge/C%23-2563eb?style=for-the-badge)
+![Queue](https://img.shields.io/badge/Queue-0891b2?style=for-the-badge)
+[![MIT](https://img.shields.io/badge/MIT-16a34a?style=for-the-badge)](LICENSE)
 
 Banka işlem sırasını üç öncelik grubu ve her grup içinde FIFO mantığıyla yöneten konsol simülasyonu.
+
+**Öncelikli kuyruk simülasyonu**
+
+[Projeyi keşfet](https://github.com/silanpehlivan/Banka-S-ras-/tree/master) · [Kurulum ve ayrıntılar](#projeyi-çalıştırmak-ve-incelemek)
 
 </div>
 
 ---
+
+## İçeride neler var?
+
+- **01** · İsim ve öncelik ile müşteri kaydı
+- **02** · Öncelik grupları arasında sıralı işlem
+- **03** · Bekleyen müşteriler ve kuyruk durumunu görüntüleme
+
+## Projeyi çalıştırmak ve incelemek
+
+<details>
+<summary><strong>Kurulum, kod yapısı ve teknik notları aç</strong></summary>
 
 ## Öne Çıkanlar
 
@@ -24,20 +39,19 @@ Banka işlem sırasını üç öncelik grubu ve her grup içinde FIFO mantığı
 
 C# · Queue
 
-## Teknik yaklaşım
+### Teknik yaklaşım
 
 Müşteriler öncelik gruplarına ayrılır; gruplar arasında öncelik, grup içinde FIFO sırası uygulanır. Konsol menüsü kayıt ve hizmet akışını yönetir.
 
-## Kodu incelemeye başlayın
+### Kodu incelemeye başlayın
 
 - [Program.cs](Program.cs)
 
-## Kapsam ve sınırlar
+### Kapsam ve sınırlar
 
 Gerçek banka entegrasyonu veya kalıcı işlem kaydı sunan bir sistem değil, kuyruk davranışı simülasyonudur.
 
-<details>
-<summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
+
 
 Bu proje, **C#** programlama dili kullanılarak geliştirilmiş bir konsol uygulamasıdır. Amaç, **Queue (Kuyruk)** veri yapısının çalışma mantığını gerçek hayattaki banka sırası sistemi üzerinden simüle etmektir. Sistem, müşterileri öncelik seviyelerine göre sıralayarak işlemleri **FIFO (First In First Out / İlk Giren İlk Çıkar)** mantığıyla yönetmektedir.
 
@@ -167,6 +181,8 @@ Bu proje sayesinde:
 - C# konsol uygulaması geliştirme pratiği kazanılır.
 
 ---
+
+
 
 
 </details>

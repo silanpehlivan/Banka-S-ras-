@@ -1,10 +1,37 @@
-# 🏦 Banka Sırası Otomasyonu (Queue Data Structure)
+<div align="center">
+
+# Banka Sırası Otomasyonu
+
+**Öncelikli kuyruk simülasyonu**
+
+![C#](https://img.shields.io/badge/C%23-2563eb?style=flat-square)
+![Queue](https://img.shields.io/badge/Queue-0891b2?style=flat-square)
+[![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)](LICENSE)
+
+Banka işlem sırasını üç öncelik grubu ve her grup içinde FIFO mantığıyla yöneten konsol simülasyonu.
+
+</div>
+
+---
+
+## Öne Çıkanlar
+
+- İsim ve öncelik ile müşteri kaydı
+- Öncelik grupları arasında sıralı işlem
+- Bekleyen müşteriler ve kuyruk durumunu görüntüleme
+
+## Teknolojiler
+
+C# · Queue
+
+<details>
+<summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
 
 Bu proje, **C#** programlama dili kullanılarak geliştirilmiş bir konsol uygulamasıdır. Amaç, **Queue (Kuyruk)** veri yapısının çalışma mantığını gerçek hayattaki banka sırası sistemi üzerinden simüle etmektir. Sistem, müşterileri öncelik seviyelerine göre sıralayarak işlemleri **FIFO (First In First Out / İlk Giren İlk Çıkar)** mantığıyla yönetmektedir.
 
 ---
 
-# 📝 Proje Hakkında
+## Proje Hakkında
 
 Uygulama, müşterileri üç farklı öncelik grubuna ayırarak işlem sırasını yönetir:
 
@@ -22,7 +49,7 @@ Bu yapı sayesinde Queue veri yapısının mantığı pratik bir senaryo üzerin
 
 ---
 
-# ⚙️ Teknik Detaylar
+## Teknik Detaylar
 
 | Özellik | Açıklama |
 |---|---|
@@ -34,44 +61,44 @@ Bu yapı sayesinde Queue veri yapısının mantığı pratik bir senaryo üzerin
 
 ---
 
-# 🎯 Temel Özellikler
+## Temel Özellikler
 
-## ✅ Müşteri Kaydı
+## Müşteri Kaydı
 - Sisteme yeni müşteri ekleme
 - İsim ve öncelik seviyesi belirleme
 - Dinamik kuyruk yönetimi
 
-## ✅ Akıllı İşlem Yönetimi
+## Akıllı İşlem Yönetimi
 - Öncelikli müşteri mantığı
 - FIFO tabanlı işlem sırası
 - Kuyruklar arası otomatik geçiş
 
-## ✅ Kuyruk Görüntüleme
+## Kuyruk Görüntüleme
 - Tüm müşterileri öncelik sırasına göre listeleme
 - Bekleyen müşteri kontrolü
 - Anlık kuyruk durumu görüntüleme
 
 ---
 
-# 🚀 Kurulum ve Çalıştırma
+## Kurulum ve Çalıştırma
 
-## 1️⃣ Projeyi İndirin
+## 1. Projeyi İndirin
 
 ```bash
-git clone <repo-link>
+git clone https://github.com/silanpehlivan/Banka-S-ras-.git
 ```
 
 veya ZIP olarak indirip çıkarın.
 
 ---
 
-## 2️⃣ Visual Studio ile Açın
+## 2. Visual Studio ile Açın
 
 `7.Odev.sln` dosyasını Visual Studio üzerinden açın.
 
 ---
 
-## 3️⃣ Projeyi Çalıştırın
+## 3. Projeyi Çalıştırın
 
 Visual Studio içerisinde:
 
@@ -83,7 +110,7 @@ tuşuna basarak projeyi derleyip çalıştırabilirsiniz.
 
 ---
 
-# 📂 Proje Yapısı
+## Proje Yapısı
 
 ```bash
 7.Odev/
@@ -103,7 +130,7 @@ tuşuna basarak projeyi derleyip çalıştırabilirsiniz.
 
 ---
 
-# 🧠 Kullanılan Veri Yapısı
+## Kullanılan Veri Yapısı
 
 Bu projede temel olarak aşağıdaki veri yapısı kullanılmıştır:
 
@@ -118,7 +145,7 @@ Queue yapısı:
 
 ---
 
-# 📌 Projenin Amacı
+## Projenin Amacı
 
 Bu proje sayesinde:
 
@@ -129,10 +156,15 @@ Bu proje sayesinde:
 
 ---
 
-## 📜 Lisans
 
-Bu proje **MIT License** ile lisanslanmıştır. Detaylı bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
+</details>
 
-## 👩‍💻 Geliştirici
+---
 
-Şilan PEHLİVAN
+<div align="center">
+
+**© 2024 Şilan PEHLİVAN**
+
+Bu proje MIT lisansı kapsamında sunulmaktadır. Kullanım ve dağıtım koşulları: [LICENSE](LICENSE).
+
+</div>

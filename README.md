@@ -24,6 +24,18 @@ Banka işlem sırasını üç öncelik grubu ve her grup içinde FIFO mantığı
 
 C# · Queue
 
+## Teknik yaklaşım
+
+Müşteriler öncelik gruplarına ayrılır; gruplar arasında öncelik, grup içinde FIFO sırası uygulanır. Konsol menüsü kayıt ve hizmet akışını yönetir.
+
+## Kodu incelemeye başlayın
+
+- [Program.cs](Program.cs)
+
+## Kapsam ve sınırlar
+
+Gerçek banka entegrasyonu veya kalıcı işlem kaydı sunan bir sistem değil, kuyruk davranışı simülasyonudur.
+
 <details>
 <summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
 
